@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+}
+
+.header {
+    background-color: white;
+    color: black;
+    width: calc(100% - 2px);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: 1px solid rgb(197, 197, 197);
+}
+
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+.header img {
+    width: 65px;
+}
+.titulo {
+    
+    font-size: 18px;
+}
+.cima {
+    display: flex;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    align-items: center;
+    margin-left: 20px;
+}
+.principal {
+    display: block;
+    margin-left: 247px;
+    margin-right: 247px;
+    padding-top: 12px;
+    flex-direction: column;
+}
+.desc {
+    background-color: white;
+    height: 120px;
+    margin-bottom: 12px;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+}
+.desc .detalhe {
+    background-color: rgb(195, 0, 255);
+    border-radius: 8px 8px 2px 2px;
+    height: 15px;
+}
+.desc .dp {
+    padding-right: 24px;
+    padding-left: 24px;
+    font-size: 24pt;
+    padding-bottom: 8px;
+    padding-top: 22px;
+}
+.desc .dd {
+    padding-right: 24px;
+    padding-left: 24px;
+    font-size: 11pt;
+    line-height: 15pt;
+    letter-spacing: 0;
+    color: rgb(92, 92, 92);
+}
+.perguntas {
+    background-color: white;
+    padding-right: 24px;
+    padding-left: 24px;
+    font-size: 13pt;
+    padding-bottom: 22px;
+    padding-top: 22px;
+    margin-bottom: 12px;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+}
